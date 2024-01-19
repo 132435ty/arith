@@ -1,6 +1,5 @@
-def round():
-    z = input("введи радиус: ")
-    x = float(z) * float(3.1415)
-
-round(print(x))
-
+def arithmetic_mean():
+    z = [1, 2, 3, 4, 5, 6, 7]
+    x = sum(z) / len(z)
+    print(x)
+arithmetic_mean()
